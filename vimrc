@@ -162,6 +162,8 @@ function! AutoSetFileHead()
         call setline(1, "\#!/usr/bin/env python")
         call append(1, "\# encoding: utf-8")
     endif
+    
+    call setline(2, "\# Author: Xiaoqing Zhou")
 
     normal G
     normal o
